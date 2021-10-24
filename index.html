@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Fetch API Sandbox</title>
+	</head>
+	<body>
+		<button id="getText">Get Text</button>
+		<button id="getUsers">Get Yarn Info</button>
+		<div id="output"></div>
+
+		<script>
+			document
+				.getElementById('getText')
+				.addEventListener('click', getText);
+			document
+				.getElementById('getUsers')
+				.addEventListener('click', getUsers);
+
+			function getText() {
+				// fetch('sample.txt')
+				// 	.then(function (response) {
+				// 		return response.text();
+				// 	})
+				// 	.then(function (data) {
+				// 		console.log(data);
+				// 	});
+
+				fetch('sample.txt')
+					.then((response) => response.text())
+					.then((data) => {
+						document.getElementById('output').innerHTML = data;
+					})
+					.catch((error) => console.log(error));
+			}
+
+			function getUsers() {
+				fetch('yarns.json')
+					.then((res) => res.json())
+					.then((data) => {
+						let output = '<h2>Yarns</h2>';
+						data.forEach(function (yarn) {
+							let mass = '';
+
+							if (yarn.mass[0][0]) {
+								// if there's an imperial weight
+								mass += yarn.mass[0][0] + ' oz';
+								mass += yarn.mass[0][1] ? ' / ' : ''; // if there's also a metric weight, add a separator
+							}
+							if (yarn.mass[0][1]) {
+								// if there's a metric weight
+								mass += yarn.mass[0][1] + ' g';
+							}
+
+							output += `
+								<ul>
+									<li>
+										<p><span class="yarn_mftr_brand">${yarn.manufacturer_brand}</span> <span class="yarn_name">${yarn.name}</span></p>
+										<p>${mass}</p>
+									</li>
+								</ul>
+							`;
+						});
+						document.getElementById('output').innerHTML = output;
+					});
+			}
+		</script>
+	</body>
+</html>
