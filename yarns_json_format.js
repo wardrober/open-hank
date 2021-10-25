@@ -17,12 +17,12 @@
 		}
 	],
 	"mass"                : [[null, null]],       // oz, g
-	"length"              : [[null, null]],       // yds, m
-	"knit_st_gauge"       : [[null, null]],       // sts/4˝, sts/10mm
-	"knit_row_gauge"      : [[null, null, null]], // rows/4˝, rows/10mm
-	"croc_st_gauge"       : [[null, null, null]], // sts/4˝, sts/10mm
-	"croc_row_gauge"      : [[null, null, null]], // rows/4˝, rows/10mm
-	"wraps_per_inch"      : [null],               // wraps per inch
+	"distance"            : [[null, null]],       // yds, m
+	"knit_st_gauge"       : [[null, null]],       // hi, lo sts/4˝
+	"knit_row_gauge"      : [[null, null, null]], // hi, lo rows/4˝, stitch
+	"croc_st_gauge"       : [[null, null, null]], // hi, lo sts/4˝, stitch
+	"croc_row_gauge"      : [[null, null, null]], // hi, lo rows/4˝, stitch
+	"wraps_per_inch"      : [[null, null]],               // hi, lo wraps per inch
 	"knit_needle_rec"     : [[null, null]],       // US, mm
 	"croc_hook_rec"       : [[null, null]],       // US, mm
 	"image_file_location" : "",
