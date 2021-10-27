@@ -2,7 +2,7 @@
 	{
 		"yarn_id": "jamiesonandsmith-jamiesonandsmith-2ply",
 		"vendor_name": "Jamieson &amp; Smith",
-		"vendor_reference": "Jamieson &amp; Smith",
+		"manufacturer_company": "Jamieson &amp; Smith",
 		"manufacturer_brand": "Jamieson &amp; Smith",
 		"name": "2-Ply Jumper Weight",
 		"published_content": "100% Real Shetland Wool",
@@ -16,14 +16,14 @@
 		"mass": [["1.75", "25"]],
 		"distance": [["125", "115"]],
 		"knit_st_gauge": [
-			["28", null, "Stockinette Stitch"],
-			["28", null, "Fair Isle"]
+			[28, null, "Stockinette Stitch"],
+			[28, null, "Fair Isle"]
 		],
 		"knit_row_gauge": [[null, null, null]],
 		"croc_st_gauge": [[null, null, null]],
 		"croc_row_gauge": [[null, null, null]],
 		"wraps_per_inch": [[null, null]],
-		"knit_needle_rec": [["3", "3.5"]],
+		"knit_needle_rec": [[3, 3.5]],
 		"croc_hook_rec": [[null, null]],
 		"image_file_location": "jas/jas/2plyjumperweight",
 		"shades": [
@@ -129,7 +129,7 @@
 	{
 		"yarn_id": "trendsetter-ggh-babyalpaca",
 		"vendor_name": "Trendsetter Yarns",
-		"vendor_reference": "Trendsetter",
+		"manufacturer_company": "GGH",
 		"manufacturer_brand": "GGH",
 		"name": "Baby Alpaka",
 		"published_content": "100% Baby Alpaca",
@@ -140,14 +140,14 @@
 				"fiber_data": ["Baby Alpaca", "Alpaca", "Hair Fiber"]
 			}
 		],
-		"mass": [[null, "50"]],
-		"distance": [["109", null]],
-		"knit_st_gauge": [["20", null, null]],
+		"mass": [[null, 50]],
+		"distance": [[109, null]],
+		"knit_st_gauge": [[20, null, null]],
 		"knit_row_gauge": [[null, null, null]],
 		"croc_st_gauge": [[null, null, null]],
 		"croc_row_gauge": [[null, null, null]],
 		"wraps_per_inch": [[null, null]],
-		"knit_needle_rec": [["7", null]],
+		"knit_needle_rec": [[7, null]],
 		"croc_hook_rec": [[null, null]],
 		"image_file_location": "trendsetter/ggh/babyalpaka",
 		"shades": [
@@ -194,7 +194,7 @@
 	{
 		"yarn_id": "trendsetter-lanagrossa-altamodacashmerefine",
 		"vendor_name": "Trendsetter Yarns",
-		"vendor_reference": "Trendsetter",
+		"manufacturer_company": "Lana Grossa",
 		"manufacturer_brand": "Lana Grossa",
 		"name": "Alta Moda Cashmere Fine / Cashmere 16 Fine",
 		"published_content": "80% Merino Fine, 10% Cashmere, 10% Polyamide",
@@ -215,14 +215,14 @@
 				"fiber_data": ["Polyamide", "Synthetic Fiber"]
 			}
 		],
-		"mass": [[null, "50"]],
-		"distance": [["350", null]],
-		"knit_st_gauge": [["22", null]],
+		"mass": [[null, 50]],
+		"distance": [[350, null]],
+		"knit_st_gauge": [[22, null, null]],
 		"knit_row_gauge": [[null, null, null]],
 		"croc_st_gauge": [[null, null, null]],
 		"croc_row_gauge": [[null, null, null]],
 		"wraps_per_inch": [[null, null]],
-		"knit_needle_rec": [["7", null]],
+		"knit_needle_rec": [[7, null]],
 		"croc_hook_rec": [[null, null]],
 		"image_file_location": "trendsetter/lanagrossa/cashmerefine",
 		"shades": [
@@ -266,7 +266,7 @@
 	{
 		"yarn_id": "trendsetter-lanagrossa-alpacamoda",
 		"vendor_name": "Trendsetter Yarns",
-		"vendor_reference": "Trendsetter",
+		"manufacturer_company": "Lana Grossa",
 		"manufacturer_brand": "Lana Grossa",
 		"name": "Alpaca Moda",
 		"published_content": "74% Baby Alpaca, 13% Merino, 13% Polyamide",
@@ -287,14 +287,14 @@
 				"fiber_data": ["Polyamide", "Synthetic Fiber"]
 			}
 		],
-		"mass": [[null, "50"]],
-		"distance": [["148", null]],
-		"knit_st_gauge": [["16", null]],
+		"mass": [[null, 50]],
+		"distance": [[148, null]],
+		"knit_st_gauge": [[16, null, null]],
 		"knit_row_gauge": [[null, null, null]],
 		"croc_st_gauge": [[null, null, null]],
 		"croc_row_gauge": [[null, null, null]],
 		"wraps_per_inch": [[null, null]],
-		"knit_needle_rec": [["9", null]],
+		"knit_needle_rec": [[9, null]],
 		"croc_hook_rec": [[null, null]],
 		"image_file_location": "trendsetter/lanagrossa/alpacamoda",
 		"shades": [
@@ -319,7 +319,7 @@
 	{
 		"yarn_id": "trendsetter-lanagrossa-coolmerino",
 		"vendor_name": "Trendsetter Yarns",
-		"vendor_reference": "Trendsetter",
+		"manufacturer_company": "Lana Grossa",
 		"manufacturer_brand": "Lana Grossa",
 		"name": "Cool Merino",
 		"published_content": "90% Merino, 10% Polyamide",
@@ -335,14 +335,14 @@
 				"fiber_data": ["Polyamide", "Synthetic Fiber"]
 			}
 		],
-		"mass": [[null, "50"]],
-		"distance": [["165", null]],
-		"knit_st_gauge": [["18", null]],
+		"mass": [[null, 50]],
+		"distance": [[165, null]],
+		"knit_st_gauge": [[18, null, null]],
 		"knit_row_gauge": [[null, null, null]],
 		"croc_st_gauge": [[null, null, null]],
 		"croc_row_gauge": [[null, null, null]],
 		"wraps_per_inch": [[null, null]],
-		"knit_needle_rec": [["9", null]],
+		"knit_needle_rec": [[9, null]],
 		"croc_hook_rec": [[null, null]],
 		"image_file_location": "trendsetter/lanagrossa/coolmerino/",
 		"shades": [
