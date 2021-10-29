@@ -1,1 +1,0 @@
-Sample text has loaded from a file.
